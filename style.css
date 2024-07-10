@@ -1,0 +1,133 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.controls {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: grid;
+    grid-gap: 1px;
+    border: 1px solid #ccc;
+}
+
+.cell {
+    width: 20px; /* Adjust as needed */
+    height: 20px; /* Adjust as needed */
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.cell:hover {
+    background-color: black;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+body {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .calculator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .calculator {
+    background-color: #333;
+    border-radius: 20px;
+    padding: 20px;
+    width: 320px;
+  }
+
+  .display {
+    background-color: #000;
+    color: #0f0;
+    font-size: 2.5em;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: right;
+    margin-bottom: 20px;
+    min-height: 60px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+  }
+  
+  .button {
+    background-color: #555;
+    border: none;
+    padding: 20px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    color: #fff;
+    box-shadow: 0 4px #444;
+  }
+
+  .button:active {
+    background-color: #666;
+    transform: translateY(4px);
+    box-shadow: 0 2px #444;
+  }
+  
+  .button.operator {
+    background-color: #ff9500;
+  }
+  
+  .button.operator:active {
+    background-color: #e08e00;
+  }
+  
+  .button.clear {
+    grid-column: span 4;
+    background-color: #ff3b30;
+  }
+  
+  .button.clear:active {
+    background-color: #e02b20;
+  }
+
+  
